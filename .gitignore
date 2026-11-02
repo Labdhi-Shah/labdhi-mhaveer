@@ -1,0 +1,48 @@
+# Environment configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Runtime uploads may contain private customer documents
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+
+# Local database inspection scripts contain credentials or customer-specific data
+Backend/check-login.js
+Backend/check_employees.js
+Backend/find-kevin.js
+Backend/find-pashwa.js
+Backend/fix-meeting.js
+Backend/test-all-meetings.js
+Backend/test-api.js
+Backend/test-db.js
+Backend/test-find-record.js
+Backend/testDoc2.js
